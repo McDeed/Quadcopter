@@ -1,0 +1,7 @@
+\\homer.uit.no\sro062\my documents\visual studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\bin\Debug\Assignment9Queadcopters.exe.config
+H:\My Documents\Visual Studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\bin\Debug\Assignment9Queadcopters.exe.config
+H:\My Documents\Visual Studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\obj\Debug\Assignment9Queadcopters.csprojResolveAssemblyReference.cache
+H:\My Documents\Visual Studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\bin\Debug\Assignment9Queadcopters.exe
+H:\My Documents\Visual Studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\bin\Debug\Assignment9Queadcopters.pdb
+H:\My Documents\Visual Studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\obj\Debug\Assignment9Queadcopters.exe
+H:\My Documents\Visual Studio 2015\Projects\Assignment9Queadcopters\Assignment9Queadcopters\obj\Debug\Assignment9Queadcopters.pdb
