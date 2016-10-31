@@ -51,14 +51,12 @@ namespace Assignment9Queadcopters
 
 
             }
-            //throw new NotImplementedException();
         }
 
         public void select_comm_method()
         {
             IR = true;
             Console.WriteLine("Quadcopter IR is now using IR communication");
-            //throw new NotImplementedException();
         }
     }
 }

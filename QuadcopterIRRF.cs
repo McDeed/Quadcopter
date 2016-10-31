@@ -11,18 +11,33 @@ namespace Assignment9Queadcopters
 
         new public void select_comm_method()
         {
-            if (SNR_IR >= SNR_RF)
+
+            Dictionary<string, float> types = new Dictionary<string, float>()
             {
-                IR = true;
-                RF = false;
-                Console.WriteLine("Quadcopter IRRF is now using IR communication");
-            }
-            else
-            {
-                RF = true;
-                IR = false;
-                Console.WriteLine("Quadcopter IRRF is now using RF communication");
-            }
+
+            {"IR", SNR_IR },
+            {"RF", SNR_RF},
+            
+
+            };
+
+            var max = types.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            if(max == "IR") { IR = true;RF = false; }
+            else { RF = true; IR = false; }
+            Console.WriteLine("Quadcopter IRRF is now using {0} communication", max);
+            Console.WriteLine("SNRIR:{0} SNRRF:{1}",IR,RF);
+
+        
+
+
+
+
+
+
+
+
+
+            
 
         }
 

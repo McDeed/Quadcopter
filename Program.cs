@@ -55,6 +55,7 @@ namespace Assignment9Queadcopters
 
 
                 Thread.Sleep(500);
+                Console.ReadKey();
                 Console.Clear();
 
             }
