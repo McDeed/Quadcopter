@@ -50,6 +50,7 @@
     <Compile Include="QuadcopterIRRF.cs" />
     <Compile Include="QuadcopterIRRFBluetooth.cs" />
     <Compile Include="QuadcopterRF.cs" />
+    <Compile Include="Quadcopter_Generic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
