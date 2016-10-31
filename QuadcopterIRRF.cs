@@ -11,7 +11,7 @@ namespace Assignment9Queadcopters
 
         new public void select_comm_method()
         {
-
+            //creating a dictionary to link strings to corresponding SNR value
             Dictionary<string, float> types = new Dictionary<string, float>()
             {
 
@@ -20,12 +20,14 @@ namespace Assignment9Queadcopters
             
 
             };
-
+            //gives max the string thats linked to the highest SNR value
             var max = types.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+
             if(max == "IR") { IR = true;RF = false; }
             else { RF = true; IR = false; }
+
             Console.WriteLine("Quadcopter IRRF is now using {0} communication", max);
-            Console.WriteLine("SNRIR:{0} SNRRF:{1}",IR,RF);
+            //Console.WriteLine("IR:{0} RF:{1}",IR,RF);
 
         
 
